@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                echo 'Building project for development environment'
+                echo 'Building project for production environment'
             }
         }
         stage('Code Coverage') {
